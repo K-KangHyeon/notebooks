@@ -1,0 +1,37 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Notebooks using the Hugging Face libraries 🤗",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-KangHyeon/notebooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-KangHyeon/notebooks/issues"
+  },
+  "homepage": "https://github.com/K-KangHyeon/notebooks#readme",
+  "devDependencies": {
+    "@types/he": "^1.2.3",
+    "@types/node": "^24.3.0",
+    "playwright": "^1.55.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "he": "^1.2.0"
+  },
+  "type": "module"
+}
